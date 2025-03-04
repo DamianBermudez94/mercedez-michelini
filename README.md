@@ -1,13 +1,21 @@
-# React + Vite
+<!-- Separador con gradiente -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏡 **Mercedez michelini - Negocios Inmobiliarios**  
+### 📌 **Plataforma web para gestión de propiedades**  
 
-Currently, two official plugins are available:
+---  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛠️ **Tecnologías Utilizadas**  
+🔹 **Vite** – Entorno de desarrollo rápido para React.  
+🔹 **React** – Biblioteca para construir interfaces dinámicas.  
+🔹 **Tailwind CSS** – Framework de estilos moderno y responsivo.  
 
-## Expanding the ESLint configuration
+---  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# mercedez-michelini
+### 🚀 **Instalación y Configuración**  
+📥 **Clonar el repositorio**  
+```bash
+git clone https://github.com/tuusuario/tu-repo.git
+cd tu-repo
+
