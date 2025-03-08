@@ -10,6 +10,9 @@ export default {
 
         "Background-color-header-top": "#5a4646",
         "Background-color-nav": "#651616",
+        "Color-Text":"#ffff",
+        "Background-propiedades-destacada":"#ebe5e5",
+        "Color-title-destacada":"#555555"
 
 
       },

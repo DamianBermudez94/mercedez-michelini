@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Servicios from "../components/Servicios"
 import PropertyCard from "../components/PropertyCard";
 
 export default function Home() {
@@ -7,12 +8,14 @@ export default function Home() {
     <div>
       <Header />
       <Hero/>
-      <section className="container mx-auto my-10 p-4">
-        <h2 className="text-3xl font-bold text-center">Propiedades Destacadas</h2>
-        <div className="flex gap-6 mt-6">
+      <section className="w-full p-4 bg-Background-propiedades-destacada">
+        <h2 className="text-3xl sm:text-4xl font-bold text-Color-title-destacada text-center pt-11">Propiedades Destacadas</h2>
+        <p className="text-center pt-3 text-Color-title-destacada">Encontrá los últimos inmuebles destacados que tenemos para ofrecerte. Si buscas algo en particular, no dudes en ponerte en contacto</p>
+        <div className="">
           <PropertyCard />
         </div>
       </section>
+      <Servicios/>
     </div>
   );
 }
