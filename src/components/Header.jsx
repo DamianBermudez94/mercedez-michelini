@@ -1,20 +1,22 @@
 import React from 'react'
 import Navbar from './NavBar'
+import { Mail } from 'lucide-react';
+import { Phone } from 'lucide-react';
 
 export default function Header()  {
   return (
     <header>
+      <div className='flex justify-around gap-2 p-5 bg-Background-color-header-top'>
+        <a href="" class="flex gap-3">
+        <Mail color='white' />
+        <span class='text-white'>michelini.mercedes@gmail.com</span>
+        </a>
+        <a href="" class="flex gap-3">
+        <Phone color='white' />
+        <span class='text-white'>+5492227576199</span>
+        </a>
+      </div>
       <Navbar />
-      <section className="h-[500px] bg-cover bg-center flex items-center text-white"
-        style={{ backgroundImage: "url('/img/casa.jpg')" }}>
-        <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold">Encuentra tu hogar ideal</h2>
-          <p className="mt-4 text-lg">Propiedades exclusivas a los mejores precios.</p>
-          <a href="#" className="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold">
-            Ver Propiedades
-          </a>
-        </div>
-      </section>
     </header>
   )
 }
