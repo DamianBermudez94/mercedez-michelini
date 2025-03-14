@@ -10,9 +10,15 @@ export default {
 
         "Background-color-header-top": "#5a4646",
         "Background-color-nav": "#651616",
-        "Color-Text":"#ffff",
-        "Background-propiedades-destacada":"#ebe5e5",
-        "Color-title-destacada":"#555555"
+        "Color-Text":"#F5E8D0",
+        "Button-fondo":"#5a4646",
+        "Backfround-footer":"#2e2e2e",
+        "Background-propiedades-destacada":"#FFFFFF",
+        "Color-title-destacada":"#555555",
+        "Color-fondo-card":"",
+        "Color-borde":"#C9A227",
+        "Title-card":"#651616",
+        "Text-card":"#2E2E2E"
 
 
       },

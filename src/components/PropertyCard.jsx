@@ -18,7 +18,7 @@ export default function PropertiesPage() {
         <article className="w-full xl:w-[1300px] m-auto p-4">
             <div className="grid grid-cols-1 gap-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
                 {properties.map((prop, index) => (
-                    <div key={index} className="bg-white shadow-xs rounded-t-md overflow-hidden">
+                    <div key={index} className="bg-Background-propiedades-destacada border border-Color-borde shadow-xs rounded-t-md overflow-hidden">
                         {prop.imagen?.length > 0 ? (
                             <Swiper
                                 modules={[Navigation, Pagination]}
@@ -40,8 +40,8 @@ export default function PropertiesPage() {
                             <p className="text-gray-500">No hay imágenes disponibles</p>
                         )}
                         <div className="p-3">
-                            <h3 className="text-xl font-semibold mt-2 text-center">{prop.titulo}</h3>
-                            <p className="text-gray-600 text-center">${prop.descripcion}</p>
+                            <h3 className="text-xl font-semibold mt-2 text-center text-Title-card">{prop.titulo}</h3>
+                            <p className="text-Text-card font-medium text-center">${prop.descripcion}</p>
                         </div>
 
                     </div>
