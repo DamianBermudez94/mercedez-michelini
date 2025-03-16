@@ -1,16 +1,34 @@
-import React from 'react'
-
+import LogoImagen from '../assets/logo.webp';
+import { Mail } from 'lucide-react';
+import { Phone } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 export const Footer = () => {
   return (
-
-    <footer className="bg-Backfround-footer text-white text-center p-14">
-      <img src="" alt="" />
-      <div>
-        <span></span>
-        <span></span>
-        <span></span>
+    <footer className="bg-Backfround-footer text-white text-center p-14 flex flex-col items-center">
+      <div className='my-auto'>
+        <a href="/home" className='flex justify-center items-center'>
+          <img className='w-[70%] h-[70%] object-cover' src={LogoImagen} alt="Mercedes Michelini | Negocios inmobiliarios" />
+        </a>
       </div>
-      <p className='text-Color-Text'>&copy; 2025 Inmobiliaria XYZ. Todos los derechos reservados.</p>
+      <div className='flex flex-col items-center md:flex-row justify-around gap-8 p-5 m-auto '>
+        <a href="mailto:michelini.mercedes@gamil.com"
+          target="_blank" className="flex gap-2">
+          <Mail className='text-Color-borde' />
+          <p className='text-white'>michelini.mercedes@gmail.com</p>
+        </a>
+        <a href="https://wa.me/+5492227576199?text=Hola,%20quiero%20más%20información%20sobre%20tu%20servicio.
+   " className="flex gap-2">
+          <Phone className='text-Color-borde' />
+          <p className='text-white'>+5492227576199</p>
+        </a>
+        <span className='flex gap-2'>
+          <MapPin className='text-Color-borde' />
+          <p>Lobos - Provincia de Buenos Aires - Argentina</p>
+        </span>
+
+
+      </div>
+      <p className='text-Color-Text text-xs'>&copy; 2025 <a href="/inicio" className='text-Color-borde font-bold text-xl mx-1'>Mercedes Michelini | Negocios inmobiliarios.</a> Todos los derechos reservados.</p>
     </footer>
   );
 

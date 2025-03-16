@@ -7,13 +7,15 @@ export default function Header() {
   return (
     <header>
       <div className='flex flex-col items-center md:flex-row justify-around gap-2 p-5 m-auto bg-Background-color-header-top'>
-        <a href="" class="flex gap-3">
-          <Mail color='white' />
-          <span class='text-white'>michelini.mercedes@gmail.com</span>
+        <a href="mailto:michelini.mercedes@gamil.com"
+          target="_blank" className="flex gap-3">
+          <Mail className='text-Color-borde' />
+          <span className='text-white'>michelini.mercedes@gmail.com</span>
         </a>
-        <a href="" class="flex gap-3">
-          <Phone color='white' />
-          <span class='text-white'>+5492227576199</span>
+        <a href="https://wa.me/+5492227576199?text=Hola,%20quiero%20más%20información%20sobre%20tu%20servicio.
+" className="flex gap-3">
+          <Phone className='text-Color-borde' />
+          <span className='text-white'>+5492227576199</span>
         </a>
       </div>
       <Navbar />

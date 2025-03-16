@@ -2,8 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* Puntos de paginación personalizados */
+.custom-swiper-pagination .swiper-pagination-bullet {
+  @apply bg-gray-400 w-3 h-3 opacity-50 transition-all;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  @apply bg-blue-500 opacity-100 scale-125 w-full;
+}
+
+/* Botones personalizados */
+/* Personalizar botones */
+.custom-swiper-prev,
+.custom-swiper-next {
+  @apply absolute top-1/2 transform -translate-y-1/2  text-white p-3 rounded-full cursor-pointer z-10 transition-all;
+}
+
+.custom-swiper-prev:hover,
+.custom-swiper-next:hover {
+  @apply  text-white transition-all;
+  /* Color al pasar el mouse */
+}
+
+/* Asegurar que no aparezca el cuadrado azul al hacer clic */
+.custom-swiper-prev:focus,
+.custom-swiper-next:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.custom-swiper-prev {
+  @apply left-2;
+}
+
+.custom-swiper-next {
+  @apply right-2;
+}
+
+/* Mostrar botones solo cuando se pasa el mouse */
+.swiper:hover .custom-swiper-prev,
+.swiper:hover .custom-swiper-next {
+  @apply opacity-100;
 }

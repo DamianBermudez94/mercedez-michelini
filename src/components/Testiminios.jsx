@@ -1,22 +1,34 @@
 import React from 'react'
-
+import { UserRound } from 'lucide-react'
 export const Testiminios = () => {
     return (
         <section className='p-20 max-w-3xl md:max-w-6xl mx-auto px-6 bg-Background-propiedades-destacada'>
 
-            <h2 class="text-4xl font-bold text-center text-Text-card mb-14">Nuestros clientes</h2>
-
+            <h2 class="text-xl md:text-5xl font-bold text-center text-Text-card mb-14">Nuestros clientes</h2>
+            
             <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6 p-10">
-                <div class="h-[200px] relative bg-Background-propiedades-destacada flex justify-center items-center p-6 rounded-xl shadow-md">
-                    <p class=" px-8 m-auto text-gray-600 overflow-hidden">Compré mi casa con esta inmobiliaria y fue la mejor decisión. Atención excelente y sin complicaciones.</p>
+                <div class="w-auto bg-Background-propiedades-destacada flex flex-col justify-center items-center p-6 rounded-xl shadow-md">
+                    <div className='flex flex-col items-center'>
+                        <UserRound className='w-[50px] h-[50px] text-Background-color-nav' />
+                        <p class="text-yellow-500">★★★★★</p>
+                    </div>
+                    <p class="text-gray-600 text-center">Compré mi casa con esta inmobiliaria y fue la mejor decisión. Atención excelente y sin complicaciones.</p>
                 </div>
-                <div class="w-auto h-[200px] relative bg-Background-propiedades-destacada flex justify-center items-center p-6 rounded-xl shadow-md">
-
-                    <p class=" px-8 m-auto text-gray-600 overflow-hidden">Alquilé un departamento con ellos y me asesoraron en todo el proceso. 100% recomendados.</p>
+                <div class="w-auto bg-Background-propiedades-destacada flex flex-col justify-center items-center p-6 rounded-xl shadow-md">
+                    <div className='flex flex-col items-center'>
+                        <UserRound className='w-[50px] h-[50px] text-Background-color-nav' />
+                        <p class="text-yellow-500">★★★★★</p>
+                    </div>
+                    <p class="text-center mt-4 text-gray-600">Alquilé un departamento con ellos y me asesoraron en todo el proceso. 100% recomendados.</p>
 
                 </div>
-                <div class="w-auto h-[200px] relative bg-Background-propiedades-destacada flex justify-center items-center p-6 rounded-xl shadow-md">
-                    <p class="px-8 m-auto text-gray-600 overflow-hidden">Muy profesionales y atentos. Volvería a confiar en ellos para futuras inversiones.</p>
+                <div class="w-auto  bg-Background-propiedades-destacada flex flex-col justify-center items-center p-6 rounded-xl shadow-md">
+                    <div className='flex flex-col items-center'>
+                        <UserRound className='w-[50px] h-[50px] text-Background-color-nav' />
+                        <p class="text-yellow-500">★★★★★</p>
+                    </div>
+                    <p class="text-center mt-4 text-gray-600">Muy profesionales y atentos. Volvería a confiar en ellos para futuras inversiones.</p>
+
                 </div>
             </div>
 
