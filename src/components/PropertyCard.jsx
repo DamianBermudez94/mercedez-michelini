@@ -59,7 +59,7 @@ export default function PropertiesPage() {
                         <div className="p-3 flex flex-col items-center h-auto overflow-hidden">
                             <h3 className="text-xl font-semibold mt-2 text-center text-Title-card">{prop.titulo}</h3>
                             <p className="text-Text-card font-medium text-center mt-3">${prop.descripcion}</p>
-                            <a href="/contacto" className="w-fit mt-6 inline-block bg-Button-fondo text-Color-Text px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-Button-fondo hover:border-2  hover:border-Button-fondo duration-300 cursor-pointer">Ver propiedad</a>
+                            <a href="/contacto" className="bg-featured-properties-bg text-nav-bg p-2 rounded border border-nav-bg hover:text-text-color hover:bg-nav-bg hover:border-card-bg transition-all duration-200 ease-out">Ver propiedad</a>
                         </div>
 
                     </div>

@@ -8,17 +8,17 @@ export default {
     extend: {
       colors: {
 
-        "Background-color-header-top": "#5a4646",
-        "Background-color-nav": "#651616",
-        "Color-Text":"#fff",
-        "Button-fondo":"#5a4646",
-        "Backfround-footer":"#2e2e2e",
-        "Background-propiedades-destacada":"#FFFFFF",
-        "Color-title-destacada":"#555555",
-        "Color-fondo-card":"#F5E8D0",
-        "Color-borde":"#C9A227",
-        "Title-card":"#651616",
-        "Text-card":"#2E2E2E"
+        "header-bg": "#5a4646",
+        "nav-bg": "#651616",
+        "text-color": "#fff",
+        "button-bg": "#5a4646",
+        "footer-bg": "#2e2e2e",
+        "featured-properties-bg": "#FFFFFF",
+        "featured-title-color": "#555555",
+        "card-bg": "#F5E8D0",
+        "card-border-color": "#C9A227",
+        "card-title-color": "#651616",
+        "card-text-color": "#2E2E2E"
 
 
       },

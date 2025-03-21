@@ -5,9 +5,9 @@ import { MapPin } from 'lucide-react';
 export const Footer = () => {
   return (
     <footer className="bg-Backfround-footer text-white text-center p-14 flex flex-col items-center">
-      <div className='my-auto'>
+      <div className='my-auto p-5'>
         <a href="/home" className='flex justify-center items-center'>
-          <img className='w-[70%] h-[70%] object-cover' src={LogoImagen} alt="Mercedes Michelini | Negocios inmobiliarios" />
+          <img className='w-32 md:w-48 h-auto object-cover' src={LogoImagen} alt="Mercedes Michelini | Negocios inmobiliarios" />
         </a>
       </div>
       <div className='flex flex-col items-center md:flex-row justify-around gap-8 p-5 m-auto '>
