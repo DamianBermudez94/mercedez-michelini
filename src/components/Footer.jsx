@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react';
 import { MapPin } from 'lucide-react';
 export const Footer = () => {
   return (
-    <footer className="bg-Backfround-footer text-white text-center p-14 flex flex-col items-center">
+    <footer className="bg-header-bg text-white text-center p-14 flex flex-col items-center">
       <div className='my-auto p-5'>
         <a href="/home" className='flex justify-center items-center'>
           <img className='w-32 md:w-48 h-auto object-cover' src={LogoImagen} alt="Mercedes Michelini | Negocios inmobiliarios" />

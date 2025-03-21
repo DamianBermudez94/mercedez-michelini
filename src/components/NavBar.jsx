@@ -12,14 +12,14 @@ export default function Navbar() {
 
 
     return (
-        <div className='bg-nav-bg flex items-center justify-between p-4'>
+        <div className='bg-nav-bg flex items-center justify-around p-4'>
             <div className='flex items-center'>
                 <a href="/home">
                     <img className='w-32 md:w-48 h-auto object-cover' src={LogoImagen} alt="Mercedes Michelini | Negocios inmobiliarios" />
                 </a>
             </div>
 
-            <nav className="relative" >
+            <nav className="relative md:left-52" >
                 <button
                     id="menuButton"
                     className="p-2 md:hidden text-text-color"
