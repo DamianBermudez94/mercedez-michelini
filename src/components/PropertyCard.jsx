@@ -49,7 +49,7 @@ export default function PropertiesPage() {
                                 ))}
                                 <div className="custom-swiper-prev"><ChevronLeft className="text-red-900 hover:text-white w-10 h-10" /></div>
                                 <div className="custom-swiper-next"><ChevronRight className="text-red-900 hover:text-white  transition-all w-10 h-10" /></div>
-                                <div className="custom-swiper-pagination w-full absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 text-card-title-color p-2"></div>
+                              
 
                             </Swiper>
                         ) : (
