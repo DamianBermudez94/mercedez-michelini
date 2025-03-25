@@ -23,7 +23,7 @@ export const Footer = () => {
         </a>
         <span className='flex gap-2'>
           <MapPin className='text-card-border-color' />
-          <p>Lobos - Provincia de Buenos Aires - Argentina</p>
+          <p>Moreno 240 - Lobos - Provincia de Buenos Aires</p>
         </span>
 
 

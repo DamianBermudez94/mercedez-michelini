@@ -40,14 +40,14 @@ export default function Navbar() {
                         ></span>
                     </div>
                 </button>
-                <div className={`text-white bg-header-bg fixed inset-0 flex items-center justify-center md:relative md:h-auto md:w-auto md:bg-transparent md:translate-x-0 md:flex-row z-50 ${menuOpen ? "flex" : ""}`}>
-                    <ul>
-                        <li><Link to="/home" className={`block hover:text-card-border-color transition-all ${location.pathname === "/home" ? "text-card-border-color font-bold" : ""}`}>Inicio</Link></li>
-                        <li><Link to="/propiedades" className={`block hover:text-card-border-color transition-all ${location.pathname === "/propiedades" ? "text-card-border-color font-bold" : ""}`}>Propiedades</Link></li>
-                        <li><Link to="/acerca" className={`block hover:text-card-border-color transition-all ${location.pathname === "/acerca" ? "text-card-border-color font-bold" : ""}`}>Quienes somos</Link></li>
-                        <li><Link to="/contacto" className={`block hover:text-card-border-color transition-all ${location.pathname === "/contacto" ? "text-card-border-color font-bold" : ""}`}>Contacto</Link></li>
-                    </ul>
-                </div>
+
+                <ul className={`text-white bg-header-bg fixed top-40 md:top-0 inset-0 flex flex-col items-center justify-center gap-6 md:relative md:h-auto md:w-auto md:bg-transparent md:translate-x-0 md:flex md:flex-row  z-50 ${menuOpen ? "flex" : "hidden"}`}>
+                    <li><Link to="/home" className={`block hover:text-card-border-color transition-all ${location.pathname === "/home" ? "text-card-border-color font-bold" : ""}`}>Inicio</Link></li>
+                    <li><Link to="/propiedades" className={`block hover:text-card-border-color transition-all ${location.pathname === "/propiedades" ? "text-card-border-color font-bold" : ""}`}>Propiedades</Link></li>
+                    <li><Link to="/acerca" className={`block hover:text-card-border-color transition-all ${location.pathname === "/acerca" ? "text-card-border-color font-bold" : ""}`}>Quienes somos</Link></li>
+                    <li><Link to="/contacto" className={`block hover:text-card-border-color transition-all ${location.pathname === "/contacto" ? "text-card-border-color font-bold" : ""}`}>Contacto</Link></li>
+                </ul>
+
 
             </nav>
         </div>

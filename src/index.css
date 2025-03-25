@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
 }
 
 /* Puntos de paginación personalizados */
@@ -13,7 +19,7 @@
   @apply bg-gray-400 w-4 h-4 opacity-50 top-5 transition-all;
 }
 
-.swiper-pagination .swiper-pagination-bullet-active{
+.swiper-pagination .swiper-pagination-bullet-active {
   @apply bg-nav-bg w-4 h-4 opacity-100
 }
 
@@ -21,12 +27,12 @@
 /* Personalizar botones */
 .custom-swiper-prev,
 .custom-swiper-next {
-  @apply absolute top-1/2 transform -translate-y-1/2  text-white p-3 rounded-full cursor-pointer z-10 transition-all;
+  @apply absolute top-1/2 transform -translate-y-1/2 text-white p-3 rounded-full cursor-pointer z-10 transition-all;
 }
 
 .custom-swiper-prev:hover,
 .custom-swiper-next:hover {
-  @apply  text-white transition-all;
+  @apply text-white transition-all;
   /* Color al pasar el mouse */
 }
 

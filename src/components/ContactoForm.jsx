@@ -1,5 +1,7 @@
-import React from 'react'
 import { useState } from 'react';
+import MyMap from './MyMap';
+
+
 export const ContactoForm = () => {
 
   const [formData, setFormData] = useState({
@@ -34,7 +36,7 @@ export const ContactoForm = () => {
 
 
   return (
-    <section className="h-auto  bg-gray-100 py-12">
+    <section>
       <div className="max-w-4xl mx-auto px-6 bg-white p-8 rounded-xl shadow-lg">
         <h2 className="text-4xl font-bold mb-3 text-center text-card-text-color">Contáctanos</h2>
         <p className="text-center text-xl text-card-text-color mt-2">Déjanos un mensaje y te responderemos a la brevedad.</p>
@@ -52,26 +54,11 @@ export const ContactoForm = () => {
 
           {status && <p>{status}</p>}
         </form>
-        <div className="mt-6 text-center">
-          <p className="text-gray-600">Síguenos en nuestras redes</p>
-          <div className="flex justify-center space-x-4 mt-3">
-            <a href="#" className="text-gray-700 hover:text-blue-600 text-2xl">
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#" className="text-gray-700 hover:text-blue-400 text-2xl">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" className="text-gray-700 hover:text-pink-500 text-2xl">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#" className="text-gray-700 hover:text-green-500 text-2xl">
-              <i className="fab fa-whatsapp"></i>
-            </a>
-          </div>
-        </div>
+      </div>
+      <div className='max-w-4xl mx-auto mt-10 rounded-xl shadow-lg'>
+        <MyMap />
       </div>
     </section>
-
   )
 }
 
