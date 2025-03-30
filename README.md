@@ -11,7 +11,7 @@ Bienvenido a esta aplicación web dedicada a mostrar propiedades inmobiliarias y
 
 ## 📸 Captura de pantalla  
 
-![Vista previa de la aplicación inmobiliaria](./src/assets/inmobiliaria-preview.webp)  
+![Vista previa de la aplicación inmobiliaria](./src/assets/imagen-preview.webp) 
 
 ---  
 
