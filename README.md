@@ -7,7 +7,7 @@
 
 Bienvenido a esta aplicación web dedicada a mostrar propiedades inmobiliarias y permitir a los usuarios ponerse en contacto con los propietarios o agencias. 📩  
 
-🔗 **[Visita la web de negocios inmobiliarios](https://tu-link-aqui.com)**  
+🔗 **[Visita la web de negocios inmobiliarios](https://www.michelinimercedes.com/)**  
 
 ## 📸 Captura de pantalla  
 
